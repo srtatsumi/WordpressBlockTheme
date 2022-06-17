@@ -6,7 +6,9 @@ wp.blocks.registerBlockType("theme-blocks/banner",{
 
 function EditComponent(){
     return (
-        <></>
+        <>
+        
+        </>
     )
 }
 function SaveComponent(){
