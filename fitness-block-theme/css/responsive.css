@@ -1,0 +1,592 @@
+/* --------- ex-Large-screen-device-responsive --------------- */
+@media(max-width:1440px) {
+
+    body {
+        font-size: 1rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 3.3rem;
+        font-size: 1.125rem;
+      }
+    .banner {
+        padding: 3rem 0;
+    }
+    .banner-text h1 {
+        color: #ffffff;
+        font-size: 5.188rem;
+      }
+      .banner-text p {
+        font-size: 1.125rem;
+      }
+      .page-area {
+        margin-top: 3.375rem;
+      }
+      .banner-form {
+        padding: 3.375rem 3.125rem;
+        margin-top: 1.25rem;
+      }
+      .banner-form h2 {
+        font-size: 4.25rem;
+        text-align: center;
+        margin-bottom: 1.25rem;
+      }
+      .text-area h2 {
+        font-size: 3.25rem;
+        line-height: 5.938rem;
+        margin-bottom: -0.5rem;
+      }
+      .text-area p {
+        font-size: 2rem;
+      }
+      .choose-area img {
+        margin-bottom: 1.25rem;
+      }
+      .choose-area h3 {
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
+      }
+      .choose-area {
+        min-height: 370px;
+      }
+      .choose-us {
+        padding: 3.375rem 0;
+      }
+      .service-area {
+        padding: 3.375rem 0;
+      }
+      .service-inr {
+        width: 100%;
+        height: 490px;
+        margin-top: 1.875rem;
+      }
+      .service-text h3 {
+        font-size: 2rem;
+      }
+      .service-text {
+        padding: 1.875rem 2rem;
+      }
+      .trainer-area {
+        padding: 3.375rem 0;
+      }
+      .trainer-img {
+        max-width: 83%;
+      }
+      .trainer-list .prev-arrow {
+        right: 1.125rem;
+      }
+      .trainer-list .next-arrow {
+        left: 97.5%;
+      }
+      .trainer-text {
+        padding: 0.5rem 59px;
+      }
+      .trainer-list {
+        margin-top: 1.875rem;
+      }
+      .trainer-position {
+        font-size: 2rem;
+      }
+      .client-text h3 {
+        font-size: 2.125rem;
+      }
+      .client-inr {
+        padding: 3rem;
+      }
+      .client-text p {
+        margin-bottom: 0;
+      }
+      .trainer-position {
+        font-size: 2rem;
+        margin-top: 1.8rem;
+      }
+      .global-btn2 {
+        width: auto;
+      }
+      .footer-list h3 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+      .client-inr .prev-arrow {
+        top: 88%;
+        left: 75%;
+      }
+      .client-inr .next-arrow {
+        top: 88%;
+        left: 81%;
+      }
+      .footer-menu li a .fa-font-icon {
+        margin-right: 1.25rem;
+        font-size: 1.25rem;
+      }
+      .copy-area {
+        padding: 1.25rem 0;
+      }
+      .global-btn {
+        width: auto;
+      }
+}
+
+/* --------- Large-screen-device-responsive --------------- */
+
+@media(max-width:1199px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.3rem;
+        font-size: 1.125rem;
+    }
+
+    .banner-text {
+        padding: 3.375rem 0;
+    }
+
+    .banner-text h1 {
+        font-size: 4.188rem;
+        text-align: center;
+      }
+
+    .banner-text p {
+        margin-bottom: 1rem;
+        font-size: 1.125rem;
+        text-align: center;
+    }
+
+    .banner {
+        padding: 3rem 0;
+    }
+
+    .banner-form h2 {
+        font-size: 3.25rem;}
+
+    .global-btn2 {
+        margin: 0 auto;
+    }
+
+    .page-area {
+        text-align: center;
+    }
+
+    .banner-form {
+        padding: 3.375rem 3.125rem;
+        margin-top: 2.25rem;
+    }
+
+    .service-inr {
+        width: 31.25rem;
+        margin: 1rem auto;
+        height: auto;
+      }
+      .trainer-list {
+        margin-top: 0;
+      }
+    .choose-us {
+        padding: 3.375rem 0;
+    }
+
+    .choose-us-inr {
+        padding: 2.75rem;
+    }
+
+    .text-area p {
+        font-size: 1.75rem;
+        margin-bottom: 1.25rem;
+      }
+      .trainer-text {
+        padding: 0.5rem 59px;
+      }
+
+    .text-area h2 {
+        font-size: 3.25rem;
+        margin-bottom: 0.5rem;
+        line-height: 3.938rem;
+    }
+
+    .choose-area {
+        padding: 1.875rem 2.5rem;
+        margin-bottom: 0;
+        min-height: 410px;
+    }
+
+    .choose-area h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .service-area {
+        padding: 3.375rem 0;
+    }
+
+    .service-text h3 {
+        font-size: 1.75rem;
+    }
+    .service-text {
+        padding: 1.875rem 3rem;
+      }
+
+    .social-icon {
+        margin: 3rem 0;
+    }
+
+    .client-text {
+        margin-left: 0;
+    }
+
+    .trainer-position {
+        font-size: 1.75rem;
+        margin-top: 1.75rem;
+    }
+
+    .client-text p {
+        margin-bottom: .625rem;
+    }
+
+    .client-text h3 {
+        font-size: 2.125rem;
+    }
+
+    .quote-icon {
+        top: 2%;
+        left: 34%;
+      }
+
+    .client-text h3 {
+        font-size: 1.75rem;
+    }
+    .trainer-img {
+        width: 100%;
+        max-width: 85%;
+      }
+
+    .client-inr {
+        padding: 3rem;
+    }
+
+    .client-inr .prev-arrow {
+        top: 89%;
+        left: 85%;
+    }
+
+    .client-inr .next-arrow {
+        top: 89%;
+        left: 90%;
+    }
+    .trainer-list .prev-arrow {
+        right: 1.125rem;
+      }
+    .trainer-list .next-arrow {
+        left: 97%;
+      } 
+    .trainer-list {
+        margin-top: 1.875rem;
+      }
+    .slick-dots {
+        display: none !important;
+    }
+    .footer-list h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+      }
+    .social-icon li a .fa-brands {
+        margin-right: 1.875rem;
+        font-size: 1.5625rem;
+      }
+      .footer-menu li a .fa-font-icon {
+        margin-right: 1.1rem;
+        font-size: 1rem;
+      }
+      .trainer-area {
+        padding: 3.375rem 0;
+      }
+      .client-area {
+        padding: 3.375rem 0;
+      }
+      .footer-area {
+        padding: 1.75rem 0;
+      }
+      .copy-area {
+        padding: 1.25rem 0;
+      }
+}
+
+/* --------- Tablet-responsive --------------- */
+
+@media(max-width:61.9375rem) {
+
+    .navbar-light .navbar-toggler {
+        border-color: rgb(255, 255, 255);
+    }
+
+    .navbar-toggler {
+        background-color: #fc0;
+    }
+
+    .menu-list {
+        border-top: #707070;
+    }
+
+    .banner-text h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .banner {
+        padding: 3rem 0;
+    }
+
+    .banner-text p {
+        font-size: 1.125rem;
+        text-align: center;
+    }
+
+    .global-btn2 {
+        margin: 0 auto;
+    }
+
+    .page-area {
+        margin-top: 3.375rem;
+        text-align: center;
+    }
+
+    .banner-form {
+        padding: 3.125rem 1.75rem;
+        margin-top: 2.25rem;
+    }
+
+    .choose-us-inr {
+        padding: 2.75rem;
+    }
+
+    .text-area p {
+        font-size: 1.75rem;
+        margin-bottom: 0rem;
+      }
+
+.text-area h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    line-height: 4.938rem;
+  }
+    .choose-area {
+        margin-bottom: 1.5625rem;
+        min-height: auto;
+    }
+    .choose-area img {
+        margin-bottom: 1.125rem;
+      }
+      .choose-area h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.125rem;
+      }
+      .choose-area p {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        color: #959595;
+      }
+
+    .choose-us {
+        padding: 2.375rem 0;
+    }
+
+    .service-area {
+        padding: 2.375rem 0;
+    }
+
+    .service-inr {
+        width: 31.25rem;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        margin-bottom: 1.875rem;
+    }
+
+    .service-text h3 {
+        font-size: 1.75rem;
+      }
+
+    .trainer-list .prev-arrow {
+        right: 1.125rem;
+    }
+
+    .trainer-list .prev-arrow {
+        right: 1.125rem;
+    }
+
+    .trainer-list .next-arrow {
+        left: 96%;
+    }
+
+    .slick-dots {
+        display: none !important;
+    }
+
+    .client-inr .prev-arrow {
+        top: 100%;
+        left: 90%;
+        bottom: 0;
+    }
+
+    .client-text {
+        margin-left: 0;
+        position: relative;
+    }
+
+    .client-inr .next-arrow {
+        top: 100%;
+    }
+    .client-inr .next-arrow {
+        left: 100%;
+      }
+    .client-text {
+        margin-top: 1.875rem;
+    }
+
+    .client-text p {
+        margin-bottom: 1rem;
+    }
+
+    .footer-area {
+        padding: 2.75rem 0;
+    }
+
+    .trainer-position {
+        font-size: 2rem;
+    }
+
+    .client-text h3 {
+        font-size: 2.125rem;
+    }
+
+    .social-icon {
+        margin: 3rem 0;
+    }
+
+    .footer-list h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .client-inr img {
+        margin: 0 auto;
+    }
+
+    .client-inr {
+        padding: 6rem;
+    }
+
+    .quote-icon {
+        top: 65%;
+        left: 30%;
+        width: 64px;
+      }
+
+    .copy-area p {
+        margin-bottom: .625rem;
+        color: #828282;
+    }
+
+    .copy-area {
+        padding: 1rem 0;
+    }
+
+}
+
+/* --------- Mobile-responsive --------------- */
+
+@media(max-width:47.9375rem) {
+
+.banner {padding: 1rem 0;}
+.banner-text {
+    padding: 2.375rem 0;
+  }
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner-text p {
+    font-size: 1rem;
+  }
+  .banner-form {
+    padding: 2.125rem 1.75rem;
+    margin-top: 2.25rem;
+  }
+  .form-area {
+    padding: 1.175rem 20px;
+    margin-bottom: 1.375rem;
+  }
+  .form-btn-area {
+    font-size: 1.25rem;
+  }
+  .choose-us-inr {
+    padding: 1.75rem;
+  }
+  .text-area p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .text-area h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.938rem;
+  }
+  .choose-area h3 {
+    font-size: 1.25rem;
+  }
+  .choose-area {
+    margin-bottom: 1.125rem;
+  }
+  .service-inr {
+    width: 100%;
+    max-width: fit-content;
+    margin-top: 1.8rem;
+    margin-bottom: 0;
+  }
+  .trainer-area {
+    padding: 2.375rem 0;
+  }
+  .trainer-list .prev-arrow {
+    display: none !important;
+  }
+  .trainer-list .next-arrow {
+    display: none !important;
+  }
+  .client-area {
+    padding: 2.375rem 0;
+  }
+  .client-inr {
+    padding: 2rem;
+  }
+  .trainer-position {
+    font-size: 1.25rem;
+  }
+  .client-text h3 {
+    font-size: 1.25rem;
+  }
+  .client-inr .prev-arrow {
+    display: none !important;
+  }
+  .client-inr .next-arrow {
+    display: none !important;
+  }
+  .quote-icon {
+    top: 57%;
+    left: 30%;
+    width: 41px;
+  }
+  .footer-area {
+    padding: 1.25rem 0;
+  }
+  .social-icon {
+    margin: 2rem 0;
+  }
+  .banner-form h2 {
+    font-size: 2rem;
+  }
+  .copy-area {
+    padding: 1rem 0;
+  }
+  .footer-list h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  .copy-area p {
+    margin-bottom: .625rem;
+    white-space: nowrap;
+  }
+}

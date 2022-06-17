@@ -1,0 +1,755 @@
+/*
+ Theme Name: Fitness Theme
+ Author: Soumyadeep
+ Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+
+	/* ---font-family---- */
+	--ffPrimary: 'Open Sans', sans-serif;
+	--ffSecondary: 'Bebas Neue';
+
+
+	/*----- color -----*/
+	--primaryColor: #959595;
+	--primaryDark: #FFCC00;
+
+	--colorDark: #20202c;
+	--colorlightDark: #001728;
+
+	/* --primaryWhite: #ffffff;
+	--primaryblack: #000000; */
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+ol,
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+a,
+button {
+	text-decoration: none;
+	color: var(--primaryDark);
+	transition: 0.5s;
+	box-shadow: none;
+	outline: none;
+}
+
+a:hover,
+button:hover {
+	color: var(--primaryDark);
+	text-decoration: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+	outline: 0;
+	outline-offset: 0;
+}
+
+.btn {
+	transition: 0.5s;
+}
+p{ margin-bottom: 0;}
+
+img {
+	width: auto;
+	max-width: 100%;
+}
+
+body {
+	font-family: var(--ffPrimary);
+	font-size: 1.125rem;
+	font-weight: var(--fRegular);
+	color: var(--lightDark);
+	background-color: var(--primaryWhite);
+	/* overflow-x: hidden; */
+}
+
+*:focus {
+	outline: none !important;
+	box-shadow: none;
+}
+
+
+/*------------- Bootstrap class ------------*/
+
+.text-primary {
+	color: var(--primaryColor) !important;
+}
+
+.text-secondary {
+	color: var(--primaryDark) !important;
+}
+
+
+.bg-primary {
+	background-color: var(--colorDark) !important;
+}
+
+.bg-secondary {
+	background-color: var(--#001728) !important;
+}
+
+.font-primary {
+	font-family: var(--ffPrimary);
+}
+
+.font-secondary {
+	font-family: var(--ffSecondary);
+}
+
+/*------------- Bootstrap class end ------------*/
+
+
+/* ------ common-classes ------ */
+
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(255, 204, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--ffSecondary);
+}
+
+@media(min-width:1400px) {
+	.container {
+		max-width: 105rem;
+	}
+}
+
+.global-btn {
+	width: 8.25rem;
+	background: none;
+	padding: .5rem 1.875rem;
+	border-radius: 1.75rem;
+	color: #ffffff;
+	box-shadow: inset 0 0 0 0 #FFCC00;
+	border: 2px solid #FFCC00;
+	background-color: transparent;
+}
+
+.global-btn:hover {
+	box-shadow: inset 8.25rem 0 0 0 #FFCC00;
+	color: rgb(0, 0, 0);
+}
+
+.global-btn2 {
+	width: 9.8125rem;
+	background: none;
+	padding: .5rem 1.875rem;
+	border-radius: 1.75rem;
+	color: #ffffff;
+	box-shadow: inset 0 0 0 0 #FFCC00;
+	border: 2px solid #FFCC00;
+	background-color: transparent;
+}
+
+.global-btn2:hover {
+	box-shadow: inset 9.8125rem 0 0 0 #FFCC00;
+	color: rgb(0, 0, 0);
+}
+
+.text-area p {
+	font-size: 2.5rem;
+	color: #ffffff;
+}
+
+.text-area h2 {
+	color: var(--primaryDark);
+	font-size: 6.25rem;
+	line-height: 7.9375rem;
+	margin-bottom: 2.5rem;
+}
+.dropdown-toggle::after {
+	display: inline-block;
+	margin-left: 1rem;
+	vertical-align: .255em;
+	content: "";
+	border-top: .3em solid;
+	border-right: .3em solid transparent;
+	border-bottom: 0;
+	border-left: .3em solid #0000;
+  }
+
+  
+
+/* ------ common-classes ------ */
+
+/*------------------- banner-area -----------------*/
+
+ .banner {
+	width: 100%;
+	position: relative;
+	padding: 5rem 0;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+.banner-text {
+	padding: 14.375rem 0;
+  }
+
+.banner-text h1 {
+	color: #ffffff;
+	font-size: 7.1875rem;
+}
+
+.banner-text p {
+	color: #959595;
+	margin-bottom: 2.5rem;
+	font-size: 1.375rem;
+}
+
+/*------------------- banner-area end -----------------*/
+
+
+/*------------------- navbar-area -----------------*/
+
+.navbar-area {
+	width: 100%;
+	background-color: #20202C;
+	border-radius: .625rem;
+	padding: 1.875rem 3.75rem ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #FFCC00;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	
+	font-size: 1.125rem;
+}
+.nav-item{padding-right: 5.3rem;}
+
+.nav-link::before {
+	content: " ";
+	width: auto;
+	height: 2px;
+	background-color: transparent;
+	display: block;
+	position: relative;
+	top: 5.0625rem;
+  }
+
+  .nav-link:hover::before{
+	background-color: #FFCC00;
+	}
+/*------------------- navbar-area-end -----------------*/
+
+.page-area {
+	margin-top: 4.375rem;
+}
+
+.page-area .fa-solid {
+	color: #FFCC00;
+}
+
+.page-area span {
+	color: #ffffff;
+	font-size: 1.375rem;
+}
+
+/*------------------- banner-form-area -----------------*/
+
+.banner-form {
+	padding: 4.375rem 3.125rem;
+	background-color: rgb(9 43 56 / 77%);
+	border-radius: .625rem;
+	margin-top: 0;
+  }
+
+.banner-form h2 {
+	color: var(--primaryDark);
+	font-size: 6.25rem;
+}
+
+.form-area {
+	padding: 1.375rem 20px;
+	background: none;
+	border: 1px solid #707070;
+	margin-bottom: 2.375rem;
+}
+
+.form-btn-area {
+	width: 100%;
+	padding: .625rem;
+	border-radius: 3.125rem;
+	background: var(--primaryDark);
+	box-shadow: inset 0 0 0 0 #fff;
+	border: none;
+	font-size: 1.375rem;
+	font-weight: 600;
+	color: #000000;
+	transition: all 0.8s;
+}
+
+.form-btn-area:hover {
+	box-shadow: inset 100rem 0 0 0 #fff;
+	color: #000000;
+}
+
+.form-area::placeholder {
+	color: #ffffff;
+}
+
+.form-area:focus {
+	background-color: transparent;
+}
+
+/*------------------- banner-form-area -----------------*/
+
+
+/*------------------- choose-us-area -----------------*/
+
+.choose-us {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-image: url(../images/Background\(2\).png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4.375rem 0;
+}
+
+.choose-us-inr {
+	padding: 3.75rem;
+	background-color: rgb(0 22 38 / 66%);
+	border-radius: .625rem;
+}
+
+.choose-area {
+	border: 1px solid rgb(112 112 112 / 45%);
+	padding: 1.875rem 2.5rem;
+	min-height: 27.75rem;
+}
+
+.choose-area img {
+	margin-bottom: 1.5625rem;
+}
+
+.choose-area h3 {
+	font-size: 2.5rem;
+	margin-bottom: 1.5625rem;
+	color: #ffffff;
+	font-family: var(--ffPrimary);
+	text-transform: capitalize;
+}
+
+.choose-area p {
+	font-size: 1.125rem;
+	margin-bottom: 2.625rem;
+	color: #959595;
+}
+
+.choose-area a {
+	font-size: 1.375rem;
+}
+.choose-area a:hover{ color: #fff; text-shadow: 0 2px 1px 5px #525762;}
+
+.form-area:focus {
+	background-color: transparent;
+	border-color: #fff;
+	box-shadow: 0 0 0 .25rem rgba(198, 198, 198, 0.25);
+}
+
+/*------------------- choose-us-area-end -----------------*/
+
+
+/*------------------- service-area-----------------*/
+.service-area {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-image: url(./images/unstoppable-young-muscular-caucasian-athlete-practicing-squats-gym-with-weight-male-model-doing-strength-exercises-training-lower-body-wellness-health.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4.375rem 0;
+}
+
+.service-inr {
+	width: 31.25rem;
+	border: 2px solid #fff;
+	border-radius: .625rem;
+	margin: 0 auto;
+  }
+
+.service-inr img {
+	width: 100%;
+	border-bottom: 2px solid #fff;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.service-text {
+	padding: 1.875rem 5rem;
+}
+
+.service-text h3 {
+	font-size: 2.5rem;
+}
+
+.service-text p {
+	color: #fff;
+}
+
+/*------------------- service-area-----------------*/
+
+
+/*------------------- trainer-area-----------------*/
+
+.trainer-area {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding: 4.375rem 0;
+	background-color: var(--colorDark);
+}
+
+.trainer-list {}
+
+.trainer-img-area {
+	position: relative;
+}
+
+.trainer-img {
+	width: 31.25rem;
+	margin: 0 auto;
+	position: relative;
+	border-radius: .625rem;
+}
+.trainer-text {
+	position: absolute;
+	bottom: 1.875rem;
+	padding: 2.5rem 85px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.text-bg{ position: absolute; top: 0; left: 0; right: 0; bottom: 0;;}
+
+.trainer-list .prev-arrow {
+	color: #fc0;
+	font-size: 1.625rem;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	right: 3.125rem;
+	opacity: .75;
+}
+
+.trainer-list .prev-arrow:hover {
+	opacity: 1;
+}
+
+.trainer-list .next-arrow {
+	color: #fc0;
+	font-size: 1.625rem;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 100%;
+	opacity: .75;
+}
+
+.trainer-list .next-arrow:hover {
+	opacity: 1;
+}
+
+/*------------------- trainer-area-end ----------------*/
+
+
+/*------------------- client-area-----------------*/
+
+.client-area {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding: 4.375rem 0;
+	background-image: url(./images/unstoppable-young-muscular-caucasian-athlete-practicing-squats-gym-with-weight-male-model-doing-strength-exercises-training-lower-body-wellness-health.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.client-inr {
+    background-color: rgb(10 37 55 / 88%);
+    border-radius: .625rem;
+    padding: 5rem;
+    position: relative;
+}
+
+.client-inr img {}
+.client-div{
+	position: relative;
+}
+.client-text {
+	margin-left: 5rem;
+	position: relative;
+}
+
+.client-text h3 {
+	color: #fff;
+	font-size: 3.125rem;
+}
+
+.client-text p {
+	color: #fff;
+	margin-bottom: 2.5rem;
+}
+
+.trainer-position {
+	color: #fff;
+	font-size: 2.5rem;
+}
+
+.quote-icon {
+	position: absolute;
+	top: 0;
+}
+
+.quote-icon {
+	position: absolute;
+	top: 11%;
+	left: 60%;
+}
+
+.client-inr .prev-arrow {
+	color: #fc0;
+	font-size: 1.625rem;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+	left: 97%;
+	opacity: .75;
+}
+
+.client-inr .prev-arrow:hover {
+	opacity: 1.25;
+}
+
+.client-inr .next-arrow {
+	color: #fc0;
+	font-size: 1.625rem;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+	left: 100%;
+	opacity: .75;
+}
+
+.client-inr .next-arrow:hover {
+	opacity: 1.25;
+}
+
+/*------------------- client-area-----------------*/
+
+
+
+/*------------------- footer-area-----------------*/
+
+.footer-area {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding: 3.75rem 0;
+	background-color: var(--colorDark);
+}
+
+.footer-list {}
+
+.footer-list img {
+	margin-bottom: 1.875rem;
+}
+
+.footer-list p {
+	color: #fff;
+}
+
+.social-icon {
+	margin-top: 5rem;
+}
+
+.social-icon p { margin-bottom: 1.75rem;}
+
+.social-icon {}
+
+.social-icon li {
+	display: inline-block;
+}
+
+.social-icon li a {}
+
+.social-icon li a .fa-brands {
+	margin-right: 1.875rem;
+	color: #9B9EA5;
+	font-size: 2.1875rem;
+	transition: 0.8s;
+  }
+.social-icon li a .fa-brands:hover{
+	transform: translate(0, -.625rem);
+	color: var(--primaryDark);
+}
+
+.footer-list h3 {
+	font-size: 2.5rem;
+	color: #fff;
+	margin-bottom: 2.5rem;
+}
+
+.footer-menu {}
+
+.footer-menu li p {
+	color: #fff;
+}
+
+.footer-menu li {
+	margin-bottom: 1.75rem;
+}
+
+.footer-menu li a {
+	color: #fff;
+}
+
+.footer-menu li a:hover {
+	color: var(--primaryDark);
+}
+
+.footer-menu li a .fa-font-icon {
+	margin-right: 2.0625rem;
+	color: var(--primaryDark);
+	font-size: 1.625rem;
+}
+
+
+/*------------------- footer-area-----------------*/
+
+/*------------------- copyright-area-----------------*/
+
+.copy-area {
+	padding: 1.875rem 0;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: var(--colorlightDark);
+}
+
+.copy-area p {
+	margin-bottom: 0;
+	color: #828282;
+}
+
+/*------------------- copyright-area-----------------*/
+
+.banner-slider-wrap{ width: 100%; position: relative; overflow: hidden; }
+.banner-form-wrap{ width: 100%; position: relative; overflow: hidden; }
+.banner-slider-wrap .slick-slide{min-height: 1380px; padding-bottom: 94px;}
+.slide-text-area {
+	position: relative;
+	top: 15.9375rem;
+  }
+  .navbar-container {
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	top: 2.75rem;
+  }
+.nav-area{}
+
+.banner-inr-form {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 5.9375rem;
+	z-index: 10;
+  }
+
+  .arrow-1 {
+	position: absolute;
+	top: 165%;
+	left: 0%;
+	font-size: 1.625rem;
+	color: #fc0;
+	z-index: 10;
+	width: 3.125rem;
+  }
+  .arrow-2 {
+	position: absolute;
+	top: 165%;
+	color: #fc0;
+	left: 10%;
+	font-size: 1.625rem;
+	width: 3.125rem;
+  }
+  .slick-dots {
+	display: none !important;
+  }
+
+.slider_item{}
+
+.banner-slider-wrap .slider__counter {
+	position: absolute;
+	bottom: 30.8rem;
+	left: 11rem;
+	z-index: 1;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #fff;
+	pointer-events: none;
+  }
+.banner-slider-wrap .slick-dotted.slick-slider{margin-bottom: 0;}
+
+
+
+
+.primaryColor{
+	border: 2px solid #20202C !important;
+}
+.primaryColor:hover{
+	border: 2px solid #ffffff !important;
+	box-shadow: inset 9.8125rem 0 0 0 #20202C;
+	color: rgb(255, 255, 255);
+}
+
+.primaryButton{
+	border: 2px solid #FFCC00 !important;
+}
+.primaryButton:hover{
+	box-shadow: inset 9.8125rem 0 0 0 #FFCC00;
+	color: rgb(0, 0, 0);
+}
+.our-placeholder{
+	text-align: center;
+	font-size: 41px;
+	background-color: var(--colorlightDark);
+	color: white;
+	border: 2px solid white;
+}
